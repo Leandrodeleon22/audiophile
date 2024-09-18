@@ -1,5 +1,9 @@
-import Image from "next/image";
+import Wrapper from "@/components/Wrapper";
 
 export default function Home() {
-  return <div className="font">MANROPE 123456789!@#$ Q</div>;
+  return (
+    <Wrapper>
+      <div className="font">MANROPE 123456789!@#$ Q</div>;
+    </Wrapper>
+  );
 }
