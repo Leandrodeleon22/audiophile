@@ -1,7 +1,7 @@
-import React, { PropsWithChildren, ReactNode } from "react";
+import React, { PropsWithChildren } from "react";
 
 const Wrapper = ({ children }: PropsWithChildren) => {
-  return <div className="w-[110rem] mx-auto">{children}</div>;
+  return <div className="max-w-[110rem] mx-auto">{children}</div>;
 };
 
 export default Wrapper;

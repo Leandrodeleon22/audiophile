@@ -12,16 +12,16 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="bg-[var(--black-heavy)] text-white">
+    <nav className=" text-white ">
       <Wrapper>
-        <div className="flex items-center justify-between border-b-[1px] border-[#979797] py-[3.5rem]">
+        <div className=" flex items-center justify-between border-b-[1px] border-[#979797] py-[3.5rem]">
           <Image
             src="/assets/shared/desktop/logo.svg"
             width={143}
             height={25}
             alt="logo"
           />
-          <div className="min-w-[42.9rem] flex justify-between uppercase font-bold text-[1.3rem] tracking-[2px] leading-[25px]">
+          <div className=" w-full flex justify-between uppercase font-bold text-[1.3rem] tracking-[2px] leading-[25px]">
             {navList.map((list) => (
               <Link key={list.id} href={list.href}>
                 {list.name}
@@ -32,7 +32,7 @@ const NavBar = () => {
             src="/assets/shared/desktop/icon-cart.svg"
             width={23.33}
             height={20}
-            alt="logo"
+            alt="cart"
           />
         </div>
       </Wrapper>
