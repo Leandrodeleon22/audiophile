@@ -14,14 +14,15 @@ const NavBar = () => {
   return (
     <nav className=" text-white ">
       <Wrapper>
-        <div className=" flex items-center justify-between border-b-[1px] border-[#979797] py-[3.5rem]">
+        <div className=" flex  justify-between border-b-[1px] border-[#979797] py-[3.5rem]">
           <Image
             src="/assets/shared/desktop/logo.svg"
             width={143}
             height={25}
             alt="logo"
+            className="mr-[19.7rem]"
           />
-          <div className=" w-full flex justify-between uppercase font-bold text-[1.3rem] tracking-[2px] leading-[25px]">
+          <div className="max-w-[42.9rem] mr-auto w-full flex justify-between uppercase font-bold text-[1.3rem] tracking-[2px] leading-[25px]">
             {navList.map((list) => (
               <Link key={list.id} href={list.href}>
                 {list.name}

@@ -15,6 +15,9 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-manrope)"],
       },
+      opacity: {
+        "49.64": "0.4964",
+      },
     },
   },
   plugins: [],
