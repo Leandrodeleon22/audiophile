@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { FaChevronRight } from "react-icons/fa";
 
 const ProductCategories = () => {
   const productCategories = [
@@ -28,20 +29,21 @@ const ProductCategories = () => {
       {productCategories.map((category) => (
         <div
           key={category.id}
-          className="w-[35rem] flex flex-col items-center h-[20.4rem] justify-center bg-[#f1f1f1] rounded-[8px] "
+          className="w-[35rem] flex flex-col items-center h-[20.4rem] justify-center bg-[#f1f1f1] rounded-[8px]  "
         >
           <Image
             src={category.image}
-            width={250}
-            height={165}
+            width={200}
+            height={100}
             alt="headphones"
-            className="absolute w-auto -translate-y-[6.5rem]"
+            className="absolute  -translate-y-[7rem]"
           />
-          <p className="text-[1.8rem] uppercase font-bold tracking-[1.29px] mt-48">
+          <p className="text-[1.8rem] uppercase font-bold tracking-[1.29px] mt-48 mb-[1rem]">
             {category.name}
           </p>
-          <div>
-            <button>SHOP</button>
+          <div className="opacity-50 font-bold text-[1.3rem] tracking-[1px] leading-[auto] flex items-center  mb-[1.75rem]  ">
+            <button className="mr-[10px]">SHOP</button>
+            <FaChevronRight className="text-[var(--orange-main)] text-[16px]" />
           </div>
         </div>
       ))}

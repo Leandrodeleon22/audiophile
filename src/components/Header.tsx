@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <header className="bg-[url('/assets/home/desktop/image-hero.jpg')]  min-h-screen bg-center  bg-contain w-full bg-no-repeat bg-[#191818] text-white bg">
       <Wrapper>
-        <div className="flex max-w-[39.8rem]  mt-[12.8rem] items-center">
-          <div className="max-w-[39.8rem]">
+        <div className="flex max-w-[39.8rem]  mt-[12.8rem]  items-center">
+          <div className="max-w-[39.8rem] mt-[10rem]">
             <h2 className="uppercase tracking-[10px] text-[14px] opacity-49.64 ">
               new product
             </h2>
