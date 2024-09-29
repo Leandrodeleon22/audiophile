@@ -24,7 +24,7 @@ const ProductCategories = () => {
   ];
 
   return (
-    <section className="flex justify-between my-[12rem] ">
+    <section className="flex justify-between mt-[20rem] mb-[12rem] ">
       {productCategories.map((category) => (
         <div
           key={category.id}
@@ -37,7 +37,7 @@ const ProductCategories = () => {
             alt="headphones"
             className="absolute w-auto -translate-y-[6.5rem]"
           />
-          <p className="text-[1.8rem] uppercase font-bold tracking-[1.29px]">
+          <p className="text-[1.8rem] uppercase font-bold tracking-[1.29px] mt-48">
             {category.name}
           </p>
           <div>

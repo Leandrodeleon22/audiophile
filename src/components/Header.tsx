@@ -5,7 +5,6 @@ import NavBar from "./NavBar";
 const Header = () => {
   return (
     <header className="bg-[url('/assets/home/desktop/image-hero.jpg')]  min-h-screen bg-center  bg-contain w-full bg-no-repeat bg-[#191818] text-white bg">
-      <NavBar />
       <Wrapper>
         <div className="flex max-w-[39.8rem]  mt-[12.8rem] items-center">
           <div className="max-w-[39.8rem]">

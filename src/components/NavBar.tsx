@@ -12,9 +12,9 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className=" text-white ">
+    <nav className=" text-white fixed  w-full ">
       <Wrapper>
-        <div className=" flex  justify-between border-b-[1px] border-[#979797] py-[3.5rem]">
+        <div className=" max-w-[110rem] mx-auto flex  justify-between border-b-[1px] border-[#979797] py-[3.5rem]">
           <Image
             src="/assets/shared/desktop/logo.svg"
             width={143}
