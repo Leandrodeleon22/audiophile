@@ -1,6 +1,7 @@
 import React from "react";
 import Wrapper from "./Wrapper";
-import NavBar from "./NavBar";
+
+import ButtonOrange from "./ButtonOrange";
 
 const Header = () => {
   return (
@@ -18,10 +19,7 @@ const Header = () => {
               Experience natural, lifelike audio and exceptional build quality
               made for the passionate music enthusiast.
             </p>
-
-            <button className="bg-[var(--orange-main)]  font-bold tracking-[1px] text-[1.3rem] px-[3rem] w-[16rem] py-[1.425rem] uppercase">
-              see product
-            </button>
+            <ButtonOrange>see product</ButtonOrange>
           </div>
         </div>
       </Wrapper>
