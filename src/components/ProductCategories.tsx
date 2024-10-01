@@ -41,9 +41,11 @@ const ProductCategories = () => {
           <p className="text-[1.8rem] uppercase font-bold tracking-[1.29px] mt-48 mb-[1rem]">
             {category.name}
           </p>
-          <div className="opacity-50 font-bold text-[1.3rem] tracking-[1px] leading-[auto] flex items-center  mb-[1.75rem]  ">
-            <button className="mr-[10px]">SHOP</button>
-            <FaChevronRight className="text-[var(--orange-main)] text-[16px]" />
+          <div className="opacity-50 font-bold text-[1.3rem] tracking-[1px] leading-[auto] flex items-center  mb-[1.75rem] ">
+            <button className="mr-[10px] flex items-center">
+              SHOP{" "}
+              <FaChevronRight className="text-[var(--orange-main)] text-[16px]" />
+            </button>
           </div>
         </div>
       ))}

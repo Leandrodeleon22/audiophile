@@ -36,15 +36,6 @@ const SpeakerZx9 = () => {
             SEE PRODUCT
           </button>
         </div>
-
-        {/* <div>
-          <Image
-            src="/assets/home/desktop/image-speaker-zx7.png"
-            width={380}
-            height={500}
-            alt="speaker zx7"
-          />
-        </div> */}
       </section>
     </>
   );

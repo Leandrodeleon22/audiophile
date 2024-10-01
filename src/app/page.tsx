@@ -1,3 +1,4 @@
+import Earphones from "@/components/Earphones";
 import Header from "@/components/Header";
 import ProductCategories from "@/components/ProductCategories";
 import SpeakerZx9 from "@/components/SpeakerZx9";
@@ -9,6 +10,7 @@ export default function Home() {
       <main className="max-w-[110rem] w-full  mx-auto">
         <ProductCategories />
         <SpeakerZx9 />
+        <Earphones />
       </main>
     </>
   );
