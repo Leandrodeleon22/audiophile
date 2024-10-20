@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const NavBar = () => {
-  const navList = [
+  const navListData = [
     { id: 1, name: "home", href: "/" },
     { id: 2, name: "headphones", href: "/headphones" },
     { id: 3, name: "speakers", href: "/speakers" },
@@ -23,7 +23,7 @@ const NavBar = () => {
             className="mr-[19.7rem]"
           />
           <div className="max-w-[42.9rem] mr-auto w-full flex justify-between uppercase font-bold text-[1.3rem] tracking-[2px] leading-[25px]">
-            {navList.map((list) => (
+            {navListData.map((list) => (
               <Link key={list.id} href={list.href}>
                 {list.name}
               </Link>

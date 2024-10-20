@@ -1,3 +1,4 @@
+import AudioDescription from "@/components/AudioDescription";
 import Earphones from "@/components/Earphones";
 import Header from "@/components/Header";
 import ProductCategories from "@/components/ProductCategories";
@@ -11,6 +12,7 @@ export default function Home() {
         <ProductCategories />
         <SpeakerZx9 />
         <Earphones />
+        <AudioDescription />
       </main>
     </>
   );
