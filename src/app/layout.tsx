@@ -26,6 +26,13 @@ const manrope = localFont({
   variable: "--font-manrope",
 });
 
+const navListData = [
+  { id: 1, name: "home", href: "/" },
+  { id: 2, name: "headphones", href: "/headphones" },
+  { id: 3, name: "speakers", href: "/speakers" },
+  { id: 4, name: "earphones", href: "/earphones" },
+];
+
 export const metadata: Metadata = {
   title: "Audiophile",
   description: "Audiophile ecommerce",
@@ -39,10 +46,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${manrope.variable}  antialiased`}>
-        <NavBar />
+        <NavBar navListData={navListData} />
 
         {children}
-        <Footer />
+        <Footer navListData={navListData} />
       </body>
     </html>
   );
