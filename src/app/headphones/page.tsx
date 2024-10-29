@@ -1,3 +1,4 @@
+import AudioDescription from "@/components/AudioDescription";
 import HeaderSimple from "@/components/HeaderSimple";
 import ProductCategories from "@/components/ProductCategories";
 import Wrapper from "@/components/Wrapper";
@@ -11,6 +12,7 @@ const page = () => {
 
       <main className="max-w-[110rem] w-full  mx-auto">
         <ProductCategories />
+        <AudioDescription />
       </main>
     </>
   );
