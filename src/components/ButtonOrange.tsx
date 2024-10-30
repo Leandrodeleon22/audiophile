@@ -12,7 +12,7 @@ const ButtonOrange: React.FC<ButtonOrangeProps> = ({
 }) => {
   return (
     <button
-      className={`bg-[var(--orange-main)]  font-bold tracking-[1px] text-[1.3rem] px-[3rem] w-[16rem] py-[1.425rem] uppercase ${className}`}
+      className={`bg-[var(--orange-main)] font-bold tracking-[1px] text-[1.3rem] px-[3rem] w-[16rem] py-[1.425rem] uppercase ${className}`}
       {...props}
     >
       {children}
