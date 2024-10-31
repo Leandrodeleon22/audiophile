@@ -18,7 +18,7 @@ const XX99MARK1headphone = () => {
           description={XX99MARKII[3]}
         />
       </div>
-      <div className="w-1/2">
+      <div className="w-1/2 rounded-lg overflow-hidden">
         <Image
           src="/assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
           width={540}

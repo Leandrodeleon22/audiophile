@@ -17,15 +17,6 @@ const ProductDescription: React.FC<ProductDescriptionProp> = ({
 }) => {
   return (
     <>
-      {/* <div className="w-1/2">
-        <Image
-          src="/assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
-          width={540}
-          height={560}
-          alt="XX99 MARK II"
-        />
-      </div> */}
-
       <h2 className="text-[14px] tracking-[10px] uppercase text-[var(--orange-main)]">
         {newProduct}
       </h2>
@@ -35,7 +26,7 @@ const ProductDescription: React.FC<ProductDescriptionProp> = ({
       <h1 className="font-bold uppercase text-[4rem] tracking-[1.43px] leading-[44px] mb-[3.2rem] ">
         {headphones}
       </h1>
-      <p className="opacity-50 leading-[2.5rem] text-[15px] mb-[4rem] max-w-[44.5rem]">
+      <p className="opacity-50 leading-[2.5rem] text-[15px] mb-[4rem] max-w-[43.5rem]">
         {description}
       </p>
       <ButtonOrange className="text-white">See Product</ButtonOrange>

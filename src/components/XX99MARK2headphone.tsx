@@ -12,7 +12,7 @@ const XX99MARK2headphone = () => {
 
   return (
     <section className="my-[161px] gap-10 flex">
-      <div className="w-1/2">
+      <div className="w-1/2 rounded-lg overflow-hidden">
         <Image
           src="/assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
           width={540}
