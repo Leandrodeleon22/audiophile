@@ -9,7 +9,7 @@ const AudioDescription = () => {
           Bringing you the{" "}
           <span className="text-[var(--orange-main)]"> best</span> audio gear
         </h1>
-        <p className="leading-[2.5rem] text-[1.5rem] max-w-[44.5rem] font-medium">
+        <p className="leading-[2.5rem] text-[1.5rem] max-w-[44.5rem] font-medium opacity-50">
           Located at the heart of New York City, Audiophile is the premier store
           for high end headphones, earphones, speakers, and audio accessories.
           We have a large showroom and luxury demonstration rooms available for
