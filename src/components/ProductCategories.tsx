@@ -34,7 +34,7 @@ const ProductCategories = () => {
           <Image
             src={category.image}
             width={200}
-            height={100}
+            height={200}
             alt="headphones"
             className="absolute  -translate-y-[7rem]"
           />

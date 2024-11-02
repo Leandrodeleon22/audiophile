@@ -41,12 +41,22 @@ const Footer: React.FC<NavBarProps> = ({ navListData }) => {
       <Wrapper>
         <div className="flex pt-[7.5rem]">
           <div className="w-1/2">
-            <Image
+            {/* <Image
               src="/assets/shared/desktop/logo.svg"
               width={143}
-              height={25}
+              height={143}
               alt="logo"
+            /> */}
+            <Image
+              src="/assets/shared/desktop/logo.svg"
+              // src={img1}
+              width="0"
+              height="0"
+              sizes="100vw"
+              alt="test"
+              style={{ width: "143px", height: "auto" }}
             />
+
             <p className="font-medium text-[1.5rem] leading-[25px] max-w-[53rem] mt-[3.6rem] mb-[5.6rem] opacity-[.5]">
               Audiophile is an all in one stop to fulfill your audio needs.
               We're a small team of music lovers and sound specialists who are

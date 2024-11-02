@@ -9,7 +9,7 @@ const SpeakerZx9 = () => {
           <Image
             src="/assets/home/desktop/image-speaker-zx9.png"
             width={380}
-            height={500}
+            height={380}
             alt="speaker zx9"
           />
         </div>

@@ -15,7 +15,7 @@ const XX99MARK2headphone = () => {
       <div className="w-1/2 rounded-lg overflow-hidden">
         <Image
           src="/assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
-          width={540}
+          width={560}
           height={560}
           alt="XX99 MARK II"
         />

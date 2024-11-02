@@ -15,7 +15,7 @@ const ZX9speaker = () => {
       <div className="w-1/2 rounded-lg overflow-hidden">
         <Image
           src="/assets/shared/desktop/image-zx9-speaker.jpg"
-          width={540}
+          width={560}
           height={560}
           alt="XX99 MARK II"
         />

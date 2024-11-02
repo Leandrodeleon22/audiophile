@@ -15,9 +15,10 @@ const YX1earphone = () => {
       <div className="w-1/2 rounded-lg overflow-hidden">
         <Image
           src="/assets/product-yx1-earphones/desktop/image-product.jpg"
-          width={540}
+          width={560}
           height={560}
           alt="XX99 MARK II"
+          className="h-auto w-auto"
         />
       </div>
       <div className="flex flex-col justify-center pl-[55px] w-1/2">

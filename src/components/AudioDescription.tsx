@@ -22,7 +22,7 @@ const AudioDescription = () => {
         <Image
           src="/assets/shared/desktop/image-best-gear.jpg"
           width={550}
-          height={100}
+          height={550}
           alt="image-best-gear"
         />
       </div>
